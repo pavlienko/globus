@@ -1,10 +1,15 @@
 import React from 'react'
-import './app.scss'
+import './app.module.scss'
+
+// Components
+import Header from 'components/header'
+import Landing from 'components/landing'
 
 const App: React.FC = () => {
   return (
     <div>
-      <h1>Globus Project</h1>
+      <Header />
+      <Landing />
     </div>
   )
 }
