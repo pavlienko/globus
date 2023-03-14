@@ -1,7 +1,7 @@
 import React from 'react'
 
 // styles
-import './menu.module.scss'
+import './menu.scss'
 
 const Menu: React.FC = () => {
   return (
